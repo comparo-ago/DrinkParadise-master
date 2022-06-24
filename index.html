@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Drink paradise - Delivery de bebidas siempre / CBA ARGENTINA">
+    <meta name="keywords" content="drink paradise, delivery, 24hs, bebidas, drinks, cba, argentina">
+    <meta name="theme-color" content="#141414" />
+    <!-- open graph -->
+    <meta property="og:title" content="Drink paradise - Delivery de bebidas">
+    <meta property="og:description" content="Drink paradise - Delivery de bebidas siempre / CBA ARGENTINA / BEBIDAS / DRINKS">
+    <meta property="og:type" content="website">
+    <!-- fin open graph -->
+    <title>Drink paradise - Delivery de bebidas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body id="body">
+    <div class="validation">
+        <h2 class="header__title" aria-label="Home">Drink paradise</h2></a>
+        <p class="header__info" id="validation__header__info">Delivery de bebidas siempre, CBA </p>
+        <div class="validation__age">      
+            <h3>Eres mayor de 18 años?</h3>
+            <div class="validation__age__container">
+                <button class="validation__age__yes">Si</button>
+                <button class="validation__age__no">No</button>
+            </div>
+        </div>
+        <div class="validation__denied">Debes ser mayor de edad para visitar el sitio.</div>
+    </div>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__ul__li"><button class="nav__ul__li__a" id="nav__ofertas" aria-label="Combos">Combos</button></li>
+            <li class="nav__ul__li"><button class="nav__ul__li__a" id="nav__productos" aria-label="Bebidas">Bebidas</button></li>
+        </ul>
+        <button class="navMenu__button" aria-label="Navigation Menu">
+            <div class="navMenu__button__icon">
+        </button>
+        <ul class="navMenu">
+            <button class="nav__toggleLightDark__light" aria-label="toggle light/dark mode"><i class="bi bi-sun-fill"></i></button>
+            <button class="nav__toggleLightDark__dark" aria-label="toggle light/dark mode"><i class="bi bi-moon-fill"></i></button>
+            </li>
+            <li><button class="nav__toggleMainColor" aria-label="toggle main color"><i class="bi bi-palette-fill"></i></button></li>
+            <li class="nav__ul__li"><a href="https://wa.me/541199999999" target="_blank" rel="noopener" class="nav__ul__li__a nav__ul__li__whatsapp" aria-label="Whatsapp"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <a class="header__title" id="header__title__main" aria-label="Home"><h1><div class="header__title__word"><span>D</span><span>r</span><span>i</span><span>n</span><span>k&nbsp;</span></div><div class="header__title__word"><span>P</span><span>a</span><span>r</span><span>a</span><span>d</span><span>i</span><span>s</span><span>e</span></div></h1></a>
+        <p class="header__info">Delivery de bebidas siempre, CBA </p>
+    </header>
+    <h2 class="featured">Destacados:</h2>
+    <main class="main">
+        <div class="carrito" aria-label="Abrir lista de compras" tabindex="0">
+            <div class="carrito__container">
+                <i class="bi bi-cart carrito__icon"></i>
+                <p class="carrito__numero"></p>
+            </div>
+            <p class="carrito__total"></p>   
+        </div>
+
+        <div class="carrito__lista">
+            <button aria-label="Cerrar lista" class="carrito__lista__cerrar"><i class="bi bi-x-circle-fill"></i></button>
+            <h2 class="carrito__lista__title">LISTA DE COMPRA:</h2>
+            <div class="carrito__lista__content">
+                <ul class="carrito__lista__ul">     
+                </ul>
+            </div>
+            <div class="carrito__lista__bottom">
+                <p class="carrito__lista__total"><span>TOTAL</span><span class="carrito__lista__total__number">$0</span></p>
+                <button aria-label="Vaciar Compra" class="carrito__lista__vaciar">VACIAR CARRITO</button>
+                <button aria-label="Ir al checkout" class="carrito__lista__checkout">FINALIZAR COMPRA</button>
+            </div>
+
+            <div class="checkoutConfirmation"></div>
+        </div>
+
+        
+        
+        <aside class="ofertasFeatured">
+            <div class="ofertasFeatured__title">
+                <p>20% OFF</p>
+                <h2>COMBOS</h2>
+            </div>
+            
+            <div class="ofertasFeatured__wrapper">
+
+            </div>
+        </aside>
+        
+        <div class="productos" id="productosFeatured">
+        
+        </div>
+
+        <div class="ofertasPage" id="ofertasPage">
+            <button aria-label="Cerrar Ofertas" class="carrito__lista__cerrar carrito__lista__cerrar--ofertas"><i class="bi bi-x-circle-fill"></i></button>
+            <div class="ofertasPage__title">
+                <h2 class="header__title header__title--ofertas" id="header__title__ofertas" aria-label="Home">DRINK PARADISE</h2>
+                <h3 class="header__title">COMBOS</h3>
+            </div>
+            <p class="featured featured--ofertasPage">20% OFF</p>
+            <div class="ofertas ofertas--page" id="ofertas"></div>
+
+            <a href="#combos" class="ofertasPage__scrollUp">DP<i class="bi bi-arrow-up"></i></a> 
+        </div>
+
+        <div class="productosPage" id="productosPage">
+            <button aria-label="Cerrar Productos" class="carrito__lista__cerrar carrito__lista__cerrar--productos"><i class="bi bi-x-circle-fill"></i></button>
+            <div class="productosPage__title">
+                <h2 class="header__title header__title--productos" id="header__title__productos" aria-label="Home">DRINK PARADISE</h2>
+                <h3 class="header__title">BEBIDAS</h3>               
+            </div>
+
+            <div class="productosPage__filterWrapper">
+                <button class="productosPage__filterWrapper__filter filterActive">Filtrar: </button>
+                <button class="productosPage__filterWrapper__search">Buscar: </button>
+            </div>
+            
+            <div class="productosPage__filter">
+                <select name="filter" id="productosPage__filter" class="productosPage__filter__select" aria-label="Filter Products">
+                    <option value="todas" selected="selected">Todas</option>
+                    <option value="cervezas">Cervezas</option>
+                    <option value="vinos">Vinos</option>
+                    <option value="aguardientes">Aguardientes</option>
+                    <option value="licores">Licores</option>
+                    <option value="sinalcohol">Sin alcohol</option>
+                </select>
+                <i class="bi bi-filter productosPage__filter__icon"></i>
+            </div>
+
+            <div class="productosPage__search">
+                <input placeholder="Todas" autocomplete="off" type="search" name="productosSearch" id="productosPage__search" aria-label="Search Products" class="productosPage__search__input">
+                <i class="bi bi-search productosPage__search__icon"></i>
+            </div>
+
+            <div class="productosPage__sort">       
+                <div class="productosPage__sort__wrapper">
+                    <button class="productosPage__sort__wrapper__button" id="sortProducts">Ordenar <i class="bi bi-caret-down productosPage__sort__wrapper__button__icon"></i></button>
+                    <div class="productosPage__sort__wrapper__options">
+                        <div class="productosPage__sort__wrapper__options__relevancia">
+                            <button class="productosPage__sort__wrapper__options__relevancia__button" id="sortProductsRelevance">Relevancia</button>
+                        </div>
+                        <div class="productosPage__sort__wrapper__options__menor">
+                            <button class="productosPage__sort__wrapper__options__menor__button" id="sortProductsDown">Menor Precio</button>
+                        </div>
+                        <div class="productosPage__sort__wrapper__options__mayor">
+                            <button class="productosPage__sort__wrapper__options__mayor__button" id="sortProductsUp">Mayor Precio</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="productos productos--page" id="productosTotal">
+
+            </div>
+            
+            <a href="#bebidas" class="productosPage__scrollUp">BF<i class="bi bi-arrow-up"></i></a> 
+        </div>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__nav__ul">
+                <li class="footer__nav__ul__li"><button class="footer__nav__ul__li__a" id="footer__nav__ofertas" aria-label="Combos">Combos</button></li>
+                <li class="footer__nav__ul__li"><button class="footer__nav__ul__li__a" id="footer__nav__productos" aria-label="Bebidas">Bebidas</button></li>
+                <li class="footer__nav__ul__li"><a href="https://wa.me/541199999999" target="_blank" rel="noopener" class="footer__nav__ul__li__whatsapp" aria-label="Whatsapp"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+<!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- scripts --> 
+    <script src="js/Bebida.js"></script>
+    <script src="js/Combo.js"></script>
+    <script src="js/ShoppingCart.js"></script>
+    <script src="js/Stock.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
